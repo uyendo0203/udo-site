@@ -8,12 +8,7 @@ type PostProps = {
   body: string
 }
 
-function Page({ posts }: { posts: PostProps }) {
-
-  useEffect(() => {
-    console.log({ posts });
-  }, [posts])
-
+function Page() {
 
   useEffect(() => {
     console.log('Component mounted');

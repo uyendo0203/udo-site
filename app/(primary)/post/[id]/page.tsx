@@ -6,7 +6,7 @@ type PostProps= {
 }
 
 
-function Page({ posts }: { posts: PostProps }) {
+function Page() {
   return(
     <div>
       Post detail
